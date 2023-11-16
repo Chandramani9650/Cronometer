@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn1.cronometer.com/webflow/Cronometer-Icon---Mandarin.svg"  type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="login_logo">
+        <img src="https://cdn1.cronometer.com/webflow/Cronometer-Icon---Mandarin.svg" alt=""><h2>Cronometer</h2>
+    </div> 
+    <div id="users_detail">
+      <h2 style="text-align: center;font-size: 23px; font-weight: 800;">Create Your Free Account</h2>
+      <div>
+        <label for="">First Name</label>
+        <input type="text" placeholder="First Name">
+        <label for="">Email</label>
+        <input type="email" placeholder="Email Address">
+        <label for="">Password</label>
+        <input type="password" placeholder="Password">
+        <label for="">Confirm Password</label>
+        <input type="password" placeholder="Confirm Password">
+      </div>
+
+    </div>
+    <!-- ................................................................. -->
+    <div id="Users_Profile">
+        <h3>Profile Detail</h3>
+        <div>
+          <h3>sex</h3>
+            <form id="radio">
+                  <input  style=" transform: scale(2); margin-right: 40px;" type="radio" name="gender" value="male" onclick="malepatt(this)">
+                  <input  style=" transform: scale(2);" type="radio" name="gender" value="female" onclick="femalepatt(this)"> Female
+               
+              </form>
+        </div>
+        <div>
+            <h3>Birthday</h3>
+            <form  class="form">
+             
+                <div>
+                <label for="day">Day</label><br>
+                <select id="day" name="day">
+                
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="16">15</option>
+                  <option value="17">16</option>
+                  <option value="18">17</option>
+                  <option value="19">18</option>
+                  <option value="20">19</option>
+                  <option value="21">20</option>
+                  <option value="22">21</option>
+                  <option value="23">22</option>
+                  <option value="24">23</option>
+                  <option value="25">25</option>
+                  
+                  
+                </select>
+                </div>
+              
+               <div>
+                <label for="month">Month</label><br>
+                <select id="month" name="month">
+                  <!-- Create options for the months -->
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="2">March</option>
+                  <option value="2">April</option>
+                  <option value="2">May</option>
+                  <option value="2">June</option>
+                  <option value="2">July</option>
+                  <option value="2">August</option>
+                  <option value="2">September</option>
+                  <option value="2">october</option>
+                  <option value="2">November</option>
+                  <option value="2">December</option>
+                  
+                  <!-- Add more options up to 12 for the months -->
+                </select>
+               </div>
+              <div>
+                
+                <label for="year">Year</label><br>
+                <select id="year" name="year">
+                  <!-- Create options for the years -->
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+               
+                </select>
+              </div>
+              </form>
+              
+        </div>
+        <div>
+          <h3>Hight</h3>
+          <form  class="form">
+           
+              <div>
+              <label for="day">ft</label><br>
+              <select id="d" name="day">
+              
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="2">3</option>
+                <option value="2">4</option>
+                <option value="2">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                
+              </select>
+              </div>
+            
+             <div>
+              <label for="inch">in</label><br>
+              <select id="inch" name="in">
+                <!-- Create options for the months -->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+               
+              </select>or 
+             </div>
+            <div id="num" style="display: flex; flex-direction: column  ;">
+              
+              <label  for="cm"> cm</label><br>
+              <input type="number" style="height: 20px;margin-top: -15px; padding: 9px 0px ;width: 50px;border-radius: 5px;border: 1px solid;padding-left: 10px;padding-right: 10px; margin-left: 7px;">
+            </div>
+            </form>
+            
+      </div>
+      <div>
+        <h3>Weight</h3>
+        <form action="" id="weight" >
+          <input type="number" style="width: 40px;padding: 10px; border-radius: 5px;border: 1px solid;" >
+          <select name="pound" id="pound">
+            <label for="">pound</label>
+            <option value="pounds">Pounds</option>
+            <option value="kilogram">Kilogram</option>
+          </select>
+        </form>
+      </div>
+    </div>
+
+ 
+
+
+
+
+
+    <!-- ........................................................................................... -->
+    <div id="terms_condition">
+      <h3>Terms of Service & Privacy Settings</h3>
+      <div id="check_box">
+        <div>
+          <div>
+            <input type="checkbox">
+          </div>
+          <div>
+      <p>Check All</p>
+          </div>
+        </div>
+        <p>By checking the box below you are indicating you have read and agree to our <span><a href="">Terms and condition</a> and <a href="">Privacy Policy</a></span></p>
+        <div>
+          <div>
+            <input type="checkbox">
+          </div>
+          <div>
+      <p>I agree to the Cronometer Terms of Service and Privacy Policy.</p>
+          </div>
+        </div>
+        <p>In order to give you the best experience using Cronometer, we need certain data permissions. (These are optional and can be updated in your settings any time.)</p>
+        <div>
+          <div>
+            <input type="checkbox">
+          </div>
+          <div>
+      <p>I agree to receive Cronometer newsletter and promotional emails. (You can opt out at any time.)</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <input type="checkbox">
+          </div>
+          <div>
+      <p>I agree to receive personalized in-app ads.
+        (You will receive less relevant, non-personalized ads if you opt out)</p>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+    <div id="down_page">
+     <div style="margin-bottom: 60px;"><button id="signup" style="padding: 10px 80px; background-color: rgb(14, 66, 34); border-radius: 6px; color: #fff;">SIGN UP</button></div>
+     <p>Need help?</p>
+     <div><a href="" style="color: rgb(236, 105, 24); ">support@cronometer.com</a></div>
+    </div>
+    <button id="sub">submit</button>
+</body>
+</html>
+<script src="signup.js"></script>

@@ -1,0 +1,22 @@
+body{
+    color: #262A3B;
+    
+}
+#About_content{
+    padding: 20px 80px;
+    
+}
+#About_content p{
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-size: 15px;
+}
+#About_content div{
+    width: 90%;
+    margin: auto;
+}
+#About_content div img{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}

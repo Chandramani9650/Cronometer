@@ -1,0 +1,109 @@
+body{
+    width: 100%;
+    font-family: sans-serif;
+    color: #262A3B;
+    background-color: rgb(246, 236, 223);
+}
+#users_detail{
+    width: 50%;
+  /* border: 1px solid red; */
+    
+
+    margin: auto;
+}
+
+#users_detail>div{
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-between;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+  border-radius: 10px;
+    padding: 40px;
+   
+    
+}
+
+#users_detail>div>input{
+    
+    padding: 13px;
+    /* margin-top: 10px; */
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(105, 103, 103);
+ 
+}
+#Users_Profile{
+    width: 50%;
+    background-color: #fff;
+   text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    padding: 5px;
+}
+#Users_Profile>div{
+    display: flex;
+     justify-content: space-between;
+    padding: 10px 10px;
+    text-align: left;
+}
+.form{
+  display:inline-flex;
+  
+  text-align: left;
+}
+.form select{
+  
+  padding: 10px 20px;
+  margin: 4px 8px;
+  border-radius: 5px;
+}
+#weight select {
+ padding: 10px;
+ border-radius: 5px;
+}
+#terms_condition{
+width: 50%;
+background-color: #fff;
+margin: auto;
+margin-top: 30px;
+border-radius: 10px;
+padding: 20px;
+}
+#check_box>div{
+display: flex;
+align-items: center;
+
+}
+#check_box>div>div{
+  margin: 0px 10px 0px 0px;
+}
+#check_box>div>div input{
+  transform: scale(2);
+  /* border: 2px solid red; */
+}
+
+#down_page{
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  margin-top: 70px;
+  /* border: 1px solid red; */
+}
+#down_page div a{
+   text-decoration: none;
+ 
+  
+}
+@media screen and (max-width: 770px){
+  #Users_Profile>div{
+    display: inline-block;
+
+  }
+  
+}

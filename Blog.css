@@ -1,0 +1,134 @@
+body{
+    font-family: sans-serif;
+    color: #262A3B;
+    position: relative;
+    width: 100%;
+    
+}
+#blog_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+#blog_nav img{
+    width: 200px;
+    
+    
+}
+#blog_nav >div{
+  
+    display: flex;
+    
+  
+}
+#blog_nav >div>div{
+    margin: 38px 10px 0px 20px;
+
+
+}
+select{
+    margin-top: 40px;
+    height: 20px;
+    border:1px solid white;
+    color: #262A3B;
+    
+}
+
+select >option{
+    margin: 10px;
+    padding: 10px;
+   color: #262A3B;
+}
+#helo>a{
+    padding: 10px 50px;
+    border: 1px solid rgb(115, 113, 113);
+    border-radius: 6px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #262A3B;
+    font-weight: 500;
+}
+#back{
+    width: 100%;
+    height: 50vh;
+   margin-top: 30px;
+  z-index: -1;
+   position: relative;
+}
+#back>img{
+    
+    width: 100%;
+    height: 100%;
+  
+    
+   
+ 
+}
+#text{
+    position: absolute;
+    margin-top: -30%;
+    left: 50%;
+    z-index: 1;
+    
+    
+    
+}
+#blog_div{
+
+    width: 80%;
+    
+    display: flex;
+    /* position: absolute; */
+  
+    top: 50%;
+    justify-content: space-around;
+    
+    background-color: #fff;
+    z-index: 1;
+
+    border-radius: 10px;
+  
+   margin: auto;
+   margin-top: -15%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#blog_div>div{
+    padding: 40px;
+}
+#blog_div>div button{
+    padding: 13px 50px;
+    background: rgb(0, 75, 128);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+#post{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    justify-content: center;
+    gap: 40px;
+   
+}
+#post>div{
+  
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+    border-radius: 15px;
+
+}
+#post>div img{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+
+
